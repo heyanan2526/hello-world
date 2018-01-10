@@ -1,0 +1,100 @@
+Apache Tomcat
+
+The Apache Tomcat? software is an open source implementation of the Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket technologies. The Java Servlet, JavaServer Pages, Java Expression Language and Java WebSocket specifications are developed under the Java Community Process.
+
+The Apache Tomcat software is developed in an open and participatory environment and released under the Apache License version 2. The Apache Tomcat project is intended to be a collaboration of the best-of-breed developers from around the world. We invite you to participate in this open development project. To learn more about getting involved, click here.
+
+Apache Tomcat software powers numerous large-scale, mission-critical web applications across a diverse range of industries and organizations. Some of these users and their stories are listed on the PoweredBy wiki page.
+
+Apache Tomcat, Tomcat, Apache, the Apache feather, and the Apache Tomcat project logo are trademarks of the Apache Software Foundation.
+
+2017-12-12 Tomcat 8.0.48 Released
+
+The Apache Tomcat Project is proud to announce the release of version 8.0.48 of Apache Tomcat. Apache Tomcat 8.0.48 includes fixes for issues identified in 8.0.47 as well as other enhancements and changes. The notable changes compared to 8.0.47 include:
+
+Java 9 is fully supported
+Updated the packaged version of the Tomcat Native Library to 1.2.16 to pick up the latest Windows binaries built with APR 1.6.3 and OpenSSL 1.0.2m
+Full details of these changes, and all the other changes, are available in the Tomcat 8 changelog.
+
+Note: End of life date for Apache Tomcat 8.0.x is announced. Read more...
+
+Download
+
+2017-11-30 Tomcat 8.5.24 Released
+
+The Apache Tomcat Project is proud to announce the release of version 8.5.24 of Apache Tomcat. Apache Tomcat 8.5.x is intended to replace 8.0.x and includes new features pulled forward from Tomcat 9.0.x. The minimum Java version and implemented specification versions remain unchanged. The notable changes compared to 8.5.23 include:
+
+Java 9 is fully supported
+Fixed a number of HTTP/2 issues
+Fixed numerous JASPIC issues with patches from Lazar
+Updated the packaged version of the Tomcat Native Library to 1.2.16 to pick up the latest Windows binaries built with APR 1.6.3 and OpenSSL 1.0.2m
+Full details of these changes, and all the other changes, are available in the Tomcat 8.5 changelog.
+
+Download
+
+2017-11-30 Tomcat 9.0.2 (beta) Released
+
+The Apache Tomcat Project is proud to announce the release of version 9.0.2 (beta) of Apache Tomcat. The notable changes compared to 9.0.1 include:
+
+Java 9 is fully supported
+Fixed a number of HTTP/2 issues
+Fixed numerous JASPIC issues with patches from Lazar
+Updated the packaged version of the Tomcat Native Library to 1.2.16 to pick up the latest Windows binaries built with APR 1.6.3 and OpenSSL 1.0.2m
+Full details of these changes, and all the other changes, are available in the Tomcat 9 changelog.
+
+Download
+
+2017-11-20 Tomcat Native 1.2.16 Released
+
+The Apache Tomcat Project is proud to announce the release of version 1.2.16 of Tomcat Native. The notable changes since 1.2.14 include:
+
+Windows binaries built with APR 1.6.3 and OpenSSL 1.0.2m.
+Fixes for OCSP support.
+Note that users should now be using 1.2.x in preference to 1.1.x.
+
+Download | ChangeLog for 1.2.16
+
+2017-10-03 Tomcat 7.0.82 Released
+
+The Apache Tomcat Project is proud to announce the release of version 7.0.82 of Apache Tomcat. This release contains a number of bug fixes and improvements compared to version 7.0.81. The notable changes compared to 7.0.81 include:
+
+A fix for CVE-2017-12617.
+Update the packaged version of the Tomcat Native Library to 1.2.14 to pick up the latest Windows binaries built with APR 1.6.2 and OpenSSL 1.0.2l.
+Full details of these changes, and all the other changes, are available in the Tomcat 7 changelog.
+
+Download
+
+2016-10-05 Tomcat Connectors 1.2.42 Released
+
+The Apache Tomcat Project is proud to announce the release of version 1.2.42 of Apache Tomcat Connectors. This version fixes a number of bugs found in previous releases.
+
+Download | ChangeLog for 1.2.42
+
+2015-12-15 Tomcat Native 1.1.34 Released
+
+The Apache Tomcat Project is proud to announce the release of version 1.1.34 of Tomcat Native. The notable changes since 1.1.33 include:
+
+Unconditionally disable export Ciphers
+Improve ephemeral key handling for DH and ECDH
+Various fixes to build with newer OpenSSL versions
+Note that, unless a regression is discovered in 1.2.x, users should now be using 1.2.x in preference to 1.1.x.
+
+Download | ChangeLog for 1.1.34
+
+2015-03-17 Apache Standard Taglib 1.2.5 Released
+
+The Apache Tomcat Project is proud to announce the release of version 1.2.5 of the Standard Taglib. This tag library provides Apache's implementation of the JSTL 1.2 specification.
+
+Version 1.2.5 is a minor bug fix release reverting a change made in 1.2.1 where <c:import> modified the HTTP method during POST operations, and fixing an issues that resulted in an AccessControlException during startup unless permission was granted to read the accessExternalEntity property.
+
+Please see the Taglibs section for more details.
+
+Download | Changes
+
+2013-11-11 Tomcat Maven Plugin 2.2 Released
+
+The Apache Tomcat team is pleased to announce the release of Tomcat Maven Plugin 2.2. Changelog available here.
+
+The Apache Tomcat Maven Plugin provides goals to manipulate WAR projects within the Apache Tomcat servlet container.
+
+The binaries are available from Maven repositories. You should specify the version in your project's plugin configuration:
